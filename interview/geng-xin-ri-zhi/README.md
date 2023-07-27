@@ -3,15 +3,14 @@ layout:
   title:
     visible: true
   description:
-    visible: true
+    visible: false
   tableOfContents:
     visible: true
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
-# React生态
+# 更新日志
 
-React
