@@ -14,16 +14,16 @@ Redux和Recoil都是Facebook内部开发的状态管理库，其中Redux是React
 
 **Redux**基于函数式编程思想实现，集中式管理状态仓库，即一个项目中通常只定义一个store。
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 MobX是个响应式状态管理库，实现之初参考了Vue的设计思想。与Redux不同，MobX奉行分散式管理状态，即你可以定义多个store。其主要实现思路是拦截状态值的get与set函数，get时候的把状态值标记可观察变量，set的时候让组件更新。![](https://secure2.wostatic.cn/static/kGiMEcYgjUSnYSEkJzYH4p/image.png?auth\_key=1690429708-mjocgS3UsTQfDGxGho4wNu-0-c171af56f1f3e9b7a0601309bde9db29\&image\_process=resize,w\_760\&file\_size=545025)\
-![](<../../.gitbook/assets/image (4) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1).png>)
 
 Redux、MobX本身都是js库，如果想要和React一起使用，经常需要再使用一个与React的绑定库，如react-redux、mobx-react或者mobx-react-lite。
 
 **Recoil**与上面两者不同的是，Recoil本身就是React的状态管理库，不再需要与React的绑定库，属于一体机。在Recoil中，状态的定义是渐进式和分布式的。
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 ### 总结
 

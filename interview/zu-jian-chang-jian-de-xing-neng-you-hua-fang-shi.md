@@ -4,7 +4,7 @@
 
 在协调阶段，组件复用的前提是必须同时满足三个条件：同一层级下、同一类型、同一个key值。所以我们要尽量保证这三者的稳定性。
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 常见错误：key=Math.random()
 
@@ -22,7 +22,7 @@ key值标记了节点在当前层级下的唯一性，因此我们尽量不要�
 
 1. `shouldComponentUpdate`：`Component`类组件的一个生命周期，当用户定义的这个函数并且返回false，则进入bailout阶段。
 2. `PureComponent`：更新前会自行浅比较新旧props与state是否改变，如果两者都没变，则进入bailout阶段。
-3. `memo`:这里的`arePropsEqual`是个函数，用户可以自定义，如果没有定义，默认使用浅比较，比较组件更新前后的props是否相同，如果相同，则进入bailout阶段。![](<../.gitbook/assets/image (3).png>)
+3. `memo`:这里的`arePropsEqual`是个函数，用户可以自定义，如果没有定义，默认使用浅比较，比较组件更新前后的props是否相同，如果相同，则进入bailout阶段。![](<../.gitbook/assets/image (3) (1).png>)
 4. `useMemo`可以缓存参数，可以对比`useCallback`使用，`useCallback(fn, deps)` 相当于 `useMemo(() => fn, deps)`。
 5. 再说Context，Context本身就是一旦Provider传递的value变化，所有消费这个value的后代组件都要更新，因此应该尽量精简使用Context。
 

@@ -8,7 +8,7 @@ Redux基于函数式编程思想实现，集中式管理状态：
 * **State 是只读的**: 唯一改变 state 的方法就是触发 [action](https://cn.redux.js.org/understanding/thinking-in-redux/glossary)，action 是一个用于描述已发生事件的普通对象。
 * **使用纯函数来执行修改**: 为了描述 action 如何改变 state tree，你需要编写纯的 reducers。
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 1. createStore 创建store 数据状态管理库
 2. reducer 初始化、修改状态函数，**定义修改规则**
