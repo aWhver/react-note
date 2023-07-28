@@ -4,4 +4,4 @@
 
 `useState`用于定义一个state，当state改变，组件更新。state也是记录在`hook.memoizedState`上。
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (8).png>)

@@ -20,6 +20,6 @@
 
 因此大多数情况下，尽可能使用标准的 useEffect 以避免阻塞视觉更新。举个需要使用`useLayoutEffect`的场景，AntD4/5 Form的底层form，也就是rc-feild-form中的field如果用函数组件实现，就得这么写，如果换成`useEffect`，你会发现组件没有初始值，这是因为使用`useEffect`的时候，订阅会被延迟，那么组件接收到store变更，却没有要执行组件更新的操作，因为这个时候订阅还没有发生。
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (2).png>)
 
 同样的事情在react-router中也存在，因此都是适用的useLayoutEffect，如下图所示。![](<../../.gitbook/assets/image (2).png>)
