@@ -22,4 +22,4 @@
 
 ![](<../../.gitbook/assets/image (1) (2).png>)
 
-同样的事情在react-router中也存在，因此都是适用的useLayoutEffect，如下图所示。![](<../../.gitbook/assets/image (2).png>)
+同样的事情在react-router中也存在，因此都是适用的useLayoutEffect，如下图所示。![](<../../.gitbook/assets/image (2) (1).png>)

@@ -17,7 +17,7 @@ Context使用场景：当祖先组件想要和后代组件快速通信。
 
 总览
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 1. 创建Context对象：createContext
 2. Provider传递value 给后代组件 updateContextProvider
