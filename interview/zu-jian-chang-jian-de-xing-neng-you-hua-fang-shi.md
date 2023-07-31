@@ -4,7 +4,7 @@
 
 在协调阶段，组件复用的前提是必须同时满足三个条件：同一层级下、同一类型、同一个key值。所以我们要尽量保证这三者的稳定性。
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 常见错误：key=Math.random()
 

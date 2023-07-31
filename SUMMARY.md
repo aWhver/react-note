@@ -11,6 +11,7 @@
 * [组件如何通信以及不同通信方式的特点](interview/zu-jian-ru-he-tong-xin-yi-ji-bu-tong-tong-xin-fang-shi-de-te-dian.md)
 * [常用组件有哪些以及各自特点](interview/chang-yong-zu-jian-you-na-xie-yi-ji-ge-zi-te-dian.md)
 * [组件常见的性能优化方式](interview/zu-jian-chang-jian-de-xing-neng-you-hua-fang-shi.md)
+* [Context](interview/context.md)
 * [更新日志](interview/geng-xin-ri-zhi/README.md)
   * [React18新特性有哪些，并解释](interview/geng-xin-ri-zhi/react18-xin-te-xing-you-na-xie-bing-jie-shi.md)
 * [store](interview/store/README.md)

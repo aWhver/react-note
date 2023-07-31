@@ -4,4 +4,4 @@ HashRouter最简单，因为服务端并不解析#之后的字符，但是前端
 
 但是BrowserRouter就不同了，BrowserRouter使用HTML5 history API（ pushState，replaceState和popstate事件），让页面的UI同步与URL。服务器端对不同的URL返回不同的HTML，后端配置可[参考](https://pro.ant.design/zh-CN/docs/deploy)
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
