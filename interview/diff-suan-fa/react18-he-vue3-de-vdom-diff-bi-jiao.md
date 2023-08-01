@@ -8,4 +8,7 @@ coverY: 0
 
 ![](<../../.gitbook/assets/image (9).png>)
 
-1.子节点数据结构上 React的old是单链表，Vue的old是数组 React只单向查找，Vue双向查找 2.哈希表 为了快速通过key值找到节点，双方都用到了Map React中根据old做出Map，Vue中则是根据new做成Map 延伸：为什么是Map，而不是Object React18/Vue3VDOMDIFF比较 3.如果old和new其中一方已经遍历完毕，两者处理相同。这也是必然的 4.Vue用到了LIs. 注意掌握其算法
+1. 子节点数据结构上 React的old是单链表，Vue的old是数组 React只单向查找，Vue双向查找&#x20;
+2. 哈希表 为了快速通过key值找到节点，双方都用到了Map React中根据old做出Map，Vue中则是根据new做成Map&#x20;
+3. 如果old和new其中一方已经遍历完毕，两者处理相同。这也是必然的&#x20;
+4. Vue用到了LIS
